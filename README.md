@@ -30,7 +30,7 @@ conda create -n DLF python==3.9.13
 ```
 conda activate DLF
 ```
-- Install Pytorch with CUDA
+- Install Pytorch with CUDA.
 ```
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
@@ -41,7 +41,7 @@ git clone https://github.com/pwang322/DLF.git
 - Install the necessary packages.
 ```
 cd DLF
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Datasets
