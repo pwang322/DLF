@@ -26,7 +26,7 @@ The framework of DLF. Please refer to [Paper Link](arxiv) for details.
 ```
 conda create -n DLF python==3.9.13
 ```
-- Actiavte the built DLF environment.
+- Activate the built DLF environment.
 ```
 conda activate DLF
 ```
