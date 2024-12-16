@@ -5,7 +5,7 @@
 Our main contributions can be summarized as follows:
 
 - **Proposed Framework:** In this study, we propose a Disentangled-Language-Focused (DLF) multimodal representation learning framework to promote MSA tasks. The framework follows a structured pipeline: feature extraction, disentanglement, enhancement, fusion, and prediction.
-- **Language-Focused Attractor (LFA):** We develop the LFA to fully harness the potential of the dominant language modality within the modality-specific space. The LFA exploits the language-guided multimodal cross-attention mechanisms to achieve a targeted feature enhancement ($X$$\rightarrow$Language).
+- **Language-Focused Attractor (LFA):** We develop the LFA to fully harness the potential of the dominant language modality within the modality-specific space. The LFA exploits the language-guided multimodal cross-attention mechanisms to achieve a targeted feature enhancement ($X$->Language).
 - **Hierarchical Predictions:** We devise hierarchical predictions to leverage the pre-fused and post-fused features, improving the total MSA accuracy. 
 
 
@@ -35,8 +35,8 @@ pip instal requirements.txt
 
 ### Datasets
 Data files (containing processed MOSI, MOSEI datasets) can be downloaded from [here](https://drive.google.com/drive/folders/1BBadVSptOe4h8TWchkhWZRLJw8YG_aEi?usp=sharing). 
-You can first build and then put the downloaded datasets into `./dataset` directory and revise the path in `./config/config.json`. For example, if the processed the MOSEI dataset is located in `./dataset/MOSEI/aligned_50.pkl`. Please make sure "dataset_root_dir": "./dataset" and "featurePath": "MOSI/aligned_50.pkl".
-Please note that the meta information and the raw data are not available due to privacy of Youtube content creators. For more details, please follow the [official website](https://github.com/A2Zadeh/CMU-MultimodalSDK) of these datasets.
+You can first build and then put the downloaded datasets into `./dataset` directory and revise the path in `./config/config.json`. For example, if the processed the MOSI dataset is located in `./dataset/MOSI/aligned_50.pkl`. Please make sure "dataset_root_dir": "./dataset" and "featurePath": "MOSI/aligned_50.pkl".
+Please note that the meta information and the raw data are not available due to privacy of Youtube content creators. For more details, please follow the [official website](https://github.com/ecfm/CMU-MultimodalSDK) of these datasets.
 
 ### Run the Codes
 - Training
