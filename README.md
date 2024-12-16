@@ -22,15 +22,19 @@ The framework of DLF. Please refer to [Paper Link](arxiv) for details.
 - CUDA 11.7
 
 ### Installation
-- Create conda environment. Please make sure you have installed conda before.
+- Create a conda environment. Please make sure you have installed conda before.
 ```
 conda create -n DLF python==3.9.13
 ```
 ```
 pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
+- Clone this repo.
 ```
-pip instal requirements.txt
+git clone https://github.com/pwang322/DLF.git
+```
+```
+pip install requirements.txt
 ```
 
 ### Datasets
@@ -41,7 +45,7 @@ Please note that the meta information and the raw data are not available due to 
 ### Run the Codes
 - Training
 
-You can first set the traning dataset name in `./train.py` as "mosei" or "mosi", and then run:
+You can first set the training dataset name in `./train.py` as "mosei" or "mosi", and then run:
 ```
 python3 train.py
 ```
@@ -53,11 +57,11 @@ You can first set the testing dataset name in `./test.py` as "mosei" or "mosi", 
 ```
 python3 test.py
 ```
-We also provide pretrained models for testing. ([Google drive](https://drive.google.com/drive/folders/1GgCfC1ITAnRRw6RScGc7c2YUg5Ccbdba?usp=sharing))
+We also provide pre-trained models for testing. ([Google drive](https://drive.google.com/drive/folders/1GgCfC1ITAnRRw6RScGc7c2YUg5Ccbdba?usp=sharing))
 
 
 ### Citation
-If you find the code and our idea helpful in your resarch or work, please cite the following paper.
+If you find the code and our idea helpful in your research or work, please cite the following paper.
 
 ```
 @article{wang2025dlf,
