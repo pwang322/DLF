@@ -33,7 +33,9 @@ pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --e
 ```
 git clone https://github.com/pwang322/DLF.git
 ```
+- Install the necessary packages.
 ```
+cd DLF
 pip install requirements.txt
 ```
 
