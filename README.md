@@ -9,7 +9,7 @@ Our main contributions can be summarized as follows:
 - **Hierarchical Predictions:** We devise hierarchical predictions to leverage the pre-fused and post-fused features, improving the total MSA accuracy. 
 
 
-## The Framework.
+## The Framework
 ![](./imgs/Framework.png)
 The framework of DLF. Please refer to [Paper Link](arxiv) for details.
 
