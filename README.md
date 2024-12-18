@@ -1,5 +1,19 @@
 # DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis, AAAI 2025.
 
+### [Paper](https://arxiv.org/abs/2412.12225)
+
+### Citation
+If you find the code and our idea helpful in your research or work, please cite the following paper.
+
+```
+@article{wang2025dlf,
+  title={DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis},
+  author={Wang, Pan and Zhou, Qiang and Wu, Yawen and Chen, Tianlong and Hu, Jingtong},
+  journal={arXiv preprint arXiv:2412.12225},
+  year={2024}
+}
+```
+
 ## Main Contributions
 
 Our main contributions can be summarized as follows:
@@ -11,7 +25,7 @@ Our main contributions can be summarized as follows:
 
 ## The Framework
 ![](./imgs/Framework.png)
-The framework of DLF. Please refer to [Paper Link](arxiv) for details.
+The framework of DLF. Please refer to [Paper Link](https://arxiv.org/abs/2412.12225) for details.
 
 
 ## Usage
@@ -65,19 +79,6 @@ You can first set the testing dataset name in `./test.py` as "mosei" or "mosi", 
 python3 test.py
 ```
 We also provide pre-trained models for testing. ([Google drive](https://drive.google.com/drive/folders/1GgCfC1ITAnRRw6RScGc7c2YUg5Ccbdba?usp=sharing))
-
-
-### Citation
-If you find the code and our idea helpful in your research or work, please cite the following paper.
-
-```
-@article{wang2025dlf,
-  title={DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis},
-  author={Wang, Pan and Zhou, Qiang and Wu, Yawen and Chen, Tianlong and Hu, Jingtong},
-  journal={arXiv preprint arXiv:2412},
-  year={2024}
-}
-```
 
 
 
