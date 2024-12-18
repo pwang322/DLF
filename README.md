@@ -1,6 +1,6 @@
 # DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis, AAAI 2025.
 
-### | [Paper](https://arxiv.org/abs/2412.12225) |
+### [Arxiv Paper](https://arxiv.org/abs/2412.12225)
 
 ## Main Contributions
 
