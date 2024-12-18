@@ -1,18 +1,6 @@
 # DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis, AAAI 2025.
 
-### [Paper](https://arxiv.org/abs/2412.12225)
-
-### Citation
-If you find the code and our idea helpful in your research or work, please cite the following paper.
-
-```
-@article{wang2025dlf,
-  title={DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis},
-  author={Wang, Pan and Zhou, Qiang and Wu, Yawen and Chen, Tianlong and Hu, Jingtong},
-  journal={arXiv preprint arXiv:2412.12225},
-  year={2024}
-}
-```
+### [DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis, Arxiv Paper](https://arxiv.org/abs/2412.12225)
 
 ## Main Contributions
 
@@ -80,6 +68,16 @@ python3 test.py
 ```
 We also provide pre-trained models for testing. ([Google drive](https://drive.google.com/drive/folders/1GgCfC1ITAnRRw6RScGc7c2YUg5Ccbdba?usp=sharing))
 
+### Citation
+If you find the code and our idea helpful in your research or work, please cite the following paper.
 
+```
+@article{wang2025dlf,
+  title={DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis},
+  author={Wang, Pan and Zhou, Qiang and Wu, Yawen and Chen, Tianlong and Hu, Jingtong},
+  journal={arXiv preprint arXiv:2412.12225},
+  year={2024}
+}
+```
 
 
