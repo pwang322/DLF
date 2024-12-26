@@ -1,5 +1,7 @@
 # DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis, AAAI 2025.
 
+### [Arxiv Paper](https://arxiv.org/abs/2412.12225)
+
 ## Main Contributions
 
 Our main contributions can be summarized as follows:
@@ -11,7 +13,7 @@ Our main contributions can be summarized as follows:
 
 ## The Framework
 ![](./imgs/Framework.png)
-The framework of DLF. Please refer to [Paper Link](arxiv) for details.
+The framework of DLF. Please refer to [Paper Link](https://arxiv.org/abs/2412.12225) for details.
 
 
 ## Usage
@@ -41,13 +43,13 @@ git clone https://github.com/pwang322/DLF.git
 - Install the necessary packages.
 ```
 cd DLF
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Datasets
 Data files (containing processed MOSI, MOSEI datasets) can be downloaded from [here](https://drive.google.com/drive/folders/1BBadVSptOe4h8TWchkhWZRLJw8YG_aEi?usp=sharing). 
 You can first build and then put the downloaded datasets into `./dataset` directory and revise the path in `./config/config.json`. For example, if the processed the MOSI dataset is located in `./dataset/MOSI/aligned_50.pkl`. Please make sure "dataset_root_dir": "./dataset" and "featurePath": "MOSI/aligned_50.pkl".
-Please note that the meta information and the raw data are not available due to privacy of Youtube content creators. For more details, please follow the [official website](https://github.com/ecfm/CMU-MultimodalSDK) of these datasets.
+Please note that the meta information and the raw data are not available due to the privacy of YouTube content creators. For more details, please follow the [official website](https://github.com/ecfm/CMU-MultimodalSDK) of these datasets.
 
 ### Run the Codes
 - Training
@@ -74,7 +76,7 @@ If you find the code and our idea helpful in your research or work, please cite 
 @article{wang2025dlf,
   title={DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis},
   author={Wang, Pan and Zhou, Qiang and Wu, Yawen and Chen, Tianlong and Hu, Jingtong},
-  journal={arXiv preprint arXiv:2412},
+  journal={arXiv preprint arXiv:2412.12225},
   year={2024}
 }
 ```
