@@ -73,7 +73,7 @@ We also provide pre-trained models for testing. ([Google drive](https://drive.go
 If you find the code and our idea helpful in your research or work, please cite the following paper.
 
 ```
-@article{wang2025dlf,
+@article{wang2024dlf,
   title={DLF: Disentangled-Language-Focused Multimodal Sentiment Analysis},
   author={Wang, Pan and Zhou, Qiang and Wu, Yawen and Chen, Tianlong and Hu, Jingtong},
   journal={arXiv preprint arXiv:2412.12225},
