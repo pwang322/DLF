@@ -7,14 +7,7 @@ import torch.nn.functional as F
 from ...subNets import BertTextEncoder
 from ...subNets.transformers_encoder.transformer import TransformerEncoder   
 
-from huggingface_hub import PyTorchModelHubMixin
-
-
-class DLF(nn.Module, PyTorchModelHubMixin,
-          repo_url="https://github.com/pwang322/DLF",
-          paper_url="https://huggingface.co/papers/2412.12225",
-          tags=["sentiment-analysis"],
-          license="mit"):
+class DLF(nn.Module):
     def __init__(self, args):
         super(DLF, self).__init__()
         if args.use_bert:
